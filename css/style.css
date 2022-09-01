@@ -1,10 +1,12 @@
+* {font-family: 'Roboto', sans-serif; } /*podriamos usar este font*/
+
 
 .img-front{
     height: 600px;
     width: 1200px;
 }
 .container__slider{
-    width: 95%;
+    width: 90%;
     margin: auto;
     overflow: hidden
 }
