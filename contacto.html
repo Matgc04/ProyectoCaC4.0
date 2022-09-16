@@ -7,77 +7,81 @@
     <meta name="description" content="Todo lo que necesitas saber sobre un pais"> <!-- descripcion y resumen de la pagina, palabras claves, sirve para el seo-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/88dec47cc4.js" crossorigin="anonymous"></script>
     <title>Pagina de contacto</title>
 </head>
 <body>
     <header>
-        <div class="main">
+        <div class="main-nav">
             <i class="fa-solid fa-earth-americas"></i>
             <nav class="navigation">
-               <ul>
+               <ul class="nav-list">
                   <li><a href="Index.html">Inicio</a></li>
-                  <li><a href="#">America</a></li>
-                  <li><a href="#">Asia</a></li>
-                  <li><a href="#">Europa</a></li>
-                  <li><a href="#">Oceania</a></li>
+                  <li><a href="paises.html#America">America</a></li>
+                  <li><a href="paises.html#Asia">Asia</a></li>
+                  <li><a href="paises.html#Europa">Europa</a></li>
+                  <li><a href="paises.html#Oceania">Oceania</a></li>
                   <li><a href="contacto.html">Contacto</a></li>
                </ul>
             </nav>
         </div>
+    </header>
+    
+    <div class="contact-area">
+        <h1>Nos queres mandar una sugerencia?</h1>
+        <form class="contact-form row" method="post" action="#" >
 
-    <div class="contact area">
-        <form class="contact-form row" method="post" action="#" role="form">
-
-            <div class="">
+            <div class="subcontact">
                 <div class="">
-                    <input type="text" class="" id="" name="inputname" placeholder="Nombre">
+                    <input type="text" class="" id="name" name="inputname" placeholder="Nombre">
                     <label for="name">Nombre</label>
                 </div>
             </div><!-- End Input Name -->
 
-            <div class="">
+            <div class="subcontact">
                 <div class="">
-                    <input type="text" class="" id="" name="inputemail" placeholder="Email">
+                    <input type="text" class="" id="email" name="inputemail" placeholder="Email">
                     <label for="email">Email</label>
                 </div>
             </div><!-- End Input Email -->
 
-            <div class="">
+            <div class="subcontact">
                 <div class="">
-                    <input type="text" class="" id="" name="inputphone" placeholder="Telefono">
+                    <input type="text" class="" id="phone" name="inputphone" placeholder="Telefono">
                     <label for="phone">Teléfono</label>
                 </div>
             </div><!-- End Input Phone -->
 
-            <div class="">
+            <div class="subcontact">
                 <div class="">
-                    <input type="text" class="" id="" name="inputcompany" placeholder="Nombre de su compañia">
+                    <input type="text" class="" id="company" name="inputcompany" placeholder="Nombre de su compañia">
                     <label for="company">Empresa</label>
                 </div>
             </div><!-- End Input Company Name -->
 
-            <div class="">
+            <div class="subcontact">
                 <div class="">
-                    <input type="text" class="" id="" name="inputsubject" placeholder="Asunto">
+                    <input type="text" class="" id="subject" name="inputsubject" placeholder="Asunto">
                     <label for="subject">Asunto</label>
                 </div>
             </div><!-- End Input Subject -->
 
-            <div class="">
+            <div class="subcontact">
                 <div class="">
-                    <textarea class="" rows="8" placeholder="Mensaje" id=""></textarea>
+                    <textarea class="" rows="8" placeholder="Mensaje" id="message"></textarea>
                     <label for="message">Mensaje</label>
                 </div>
             </div><!-- End Textarea Message -->
 
-            <div class="">
+            <div class="subcontact">
                 <button type="submit" class="">Enviar Mensaje</button>
             </div>
+        </form>
     </div>
-    </form>
     <footer>
         @Copy
     </footer>
