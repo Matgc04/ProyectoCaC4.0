@@ -6,16 +6,16 @@
     font-family: 'Fira Sans', sans-serif;
     margin: 0;
  }
- /* se puede usar este fira Sans, roboto o alguno default,
-  para el proximo commit lo dejo definido */
- 
 
+
+/* esto es del slider */
 .img-front{
     height: 70%;
     width: 95%;
 }
-.container__slider{
-    width: 90%;
+/* .container__slider{ asi estaba antes, lo cambie para que el texto quede centrado*/
+   .container{
+    width: 79%;
     margin: auto;
     overflow: hidden
 }
@@ -49,9 +49,9 @@
     100% {margin-left: -300%;}
 }
 
+/* esto es del nav  */
 
-
-a {
+.nav-list a {
    color: white;
    font-weight: 300;
    letter-spacing: 2px;
@@ -63,12 +63,12 @@ a {
    text-align: center;
 }
 
-a:hover {
+.nav-list a:hover {
    background: rgba(65, 63, 63, 0.75);
 }
 
-.main {
-   max-width: 1200px;
+.main-nav {
+   max-width: 1300px;
    margin: 0 auto;
    padding: 0 3em 1.5em;
 }
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .navigation li {
-   flex: 3;    
+   flex: 1;    
 }
 
 .navigation .user {
@@ -113,3 +113,64 @@ a:hover {
    }
 }
 
+/* esto es de la pagina de contacto,
+ se podria hacer con bootstrap porque esta fulera */
+
+/* .contact-area {
+   max-width: 1300px;
+   margin: 0 auto;
+   padding: 0 3em 1.5em;
+}
+
+.subcontact {
+   color: white;
+   font-weight: 300;
+   letter-spacing: 2px;
+   text-decoration: none;
+   background: rgb(49, 176, 166);
+   padding: 20px 5px;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+} */
+
+/* esto es de la pagina de paises */
+h1 {
+   font-size: 4rem;
+}
+
+h2 {
+   font-size: 3.2rem;
+}
+
+p {
+   font-size: 2rem;
+}
+
+.entrada-blog a {
+   display: inline-block;
+   /* background-color: #2196F3; */
+   color: white;
+   padding: 10px 20px;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.contenedor {
+   max-width: 1200px;
+   width: 95%;
+   margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+   .contenedor {
+       width: 80%;
+   }
+}
+
+@media (min-width:768px) {
+   .contenedor {
+       width: 90%;
+   }
+}
