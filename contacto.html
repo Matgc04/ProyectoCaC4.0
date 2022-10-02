@@ -31,59 +31,45 @@
         </div>
     </header>
     
-    <div class="contact-area">
+    
+    <div class="contact">
         <h1>Nos queres mandar una sugerencia?</h1>
-        <form class="contact-form row" method="post" action="#" >
+        <form id="formulario" >
 
             <div class="subcontact">
-                <div class="">
-                    <input type="text" class="" id="name" name="inputname" placeholder="Nombre">
                     <label for="name">Nombre</label>
-                </div>
+                    <input type="text"  id="name" name="inputname" placeholder="Nombre">
+                    <div class="error"></div>
             </div><!-- End Input Name -->
 
             <div class="subcontact">
-                <div class="">
-                    <input type="text" class="" id="email" name="inputemail" placeholder="Email">
                     <label for="email">Email</label>
-                </div>
+                    <input type="text" id="email" name="inputemail" placeholder="Email">
+                    <div class="error"></div>
             </div><!-- End Input Email -->
 
-            <div class="subcontact">
-                <div class="">
-                    <input type="text" class="" id="phone" name="inputphone" placeholder="Telefono">
-                    <label for="phone">Teléfono</label>
-                </div>
-            </div><!-- End Input Phone -->
 
             <div class="subcontact">
-                <div class="">
-                    <input type="text" class="" id="company" name="inputcompany" placeholder="Nombre de su compañia">
-                    <label for="company">Empresa</label>
-                </div>
-            </div><!-- End Input Company Name -->
-
-            <div class="subcontact">
-                <div class="">
-                    <input type="text" class="" id="subject" name="inputsubject" placeholder="Asunto">
                     <label for="subject">Asunto</label>
-                </div>
+                    <input type="text"  id="subject" name="inputsubject" placeholder="Asunto">
+                    <div class="error"></div>
             </div><!-- End Input Subject -->
 
             <div class="subcontact">
-                <div class="">
-                    <textarea class="" rows="8" placeholder="Mensaje" id="message"></textarea>
                     <label for="message">Mensaje</label>
-                </div>
+                    <input type="text"  id="message" name="msg" placeholder="Dejanos un comentario!">
+                    <div class="error"></div>
             </div><!-- End Textarea Message -->
 
             <div class="subcontact">
-                <button type="submit" class="">Enviar Mensaje</button>
+                <button type="submit" id="submit">Enviar Mensaje</button>
             </div>
         </form>
     </div>
+    
     <footer>
         @Copy
     </footer>
+    <script src="js/formulario.js"></script>
 </body>
 </html>
